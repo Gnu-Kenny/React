@@ -1,3 +1,9 @@
 component를 만드는 방법
 public 디렉토리
+npm run build
 create react app 에서 npm run start 했을 때 파일을 찾는 document root
+
+**
+npm run build 변경 사항 빌드 -> index에 반영
+npx serve -s build ->serve라는 웹서버를 다운 받아 실행시킬때 build라는
+디렉토리를 document root로 하겠다.
